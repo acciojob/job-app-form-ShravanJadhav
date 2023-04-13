@@ -11,6 +11,40 @@
     <script type="text/javascript" src="./script.js">
 </script>
 
+	<form action="portfolio" method="POST">
+		<label for="name">Name</label>
+		<input type = "text" for="name" id="name" value="name" name="name" required>
+
+		<label for="email">Email</label>
+		<input type = "email" for="email" id="email" value="email" name="email" required>
+		
+		<label for="gender">Gender</label>
+		<lable for="gender_m">Male</lable>
+		<input type="radio" for="gender" id="gender_m" name="gender" required>
+		<label for="gender_f">Female</label>
+		<input type = "radio" for="gender" id="gender_f" name="gender" value="name" required>
+
+		<label for="brand">Laptop Brands</label>
+		<select>
+			<option>Apple</option>
+			<option>Asus</option>
+			<option>Hp</option>
+		</select>
+
+		<label for="age">Age</label>
+		<input type = "number" for="age" id="age" value="age" name="age" required>
+
+		<label for="dob">DOB</label>
+		<input type = "date" for="dab" id="dab" value="dob" name="dob" required>
+
+		<label for="password">Password</label>
+		<input type = "password" for="password" id="password" value="password" name="password" required>
+
+		<button type="submit">Submit</button>
+		
+		
+	</form>
+
 </body>
 
 </html>
